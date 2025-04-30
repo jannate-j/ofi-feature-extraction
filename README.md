@@ -4,11 +4,10 @@ This repository contains my work for the Order Flow Imbalance (OFI) feature extr
 
 The goal was to implement different OFI features based on limit order book activity. I focused on keeping the code readable and practical, and tried to stay close to the structure described in the task.
 
-## Features Asked for that are Included: 
-**Best-Level OFI** computed from depth 0 (top of book), based on adds and cancels.
-**Multi-Level OFI** includes depths 0 through 5, with a weighting scheme that gives more importance to shallower levels.
-**Integrated OFI** rolling sum over a 10-tick window using the best-level OFI.
-**Cross-Asset OFI** this part was skipped because the dataset only included one symbol (AAPL), so there wasn’t any cross-asset data to use.
+- **Best-Level OFI** – computed from depth 0 (top of book), based on adds and cancels.
+- **Multi-Level OFI** – includes depths 0 through 5, with a weighting scheme that gives more importance to shallower levels.
+- **Integrated OFI** – rolling sum over a 10-tick window using the best-level OFI.
+- **Cross-Asset OFI** – this part was skipped because the dataset only included one symbol (AAPL), so there wasn’t any cross-asset data to use.
 
 ## File Overview
 
